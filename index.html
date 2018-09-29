@@ -10,20 +10,8 @@
     10px}h1,h2,h3{line-height:1.2}
   </style>
 
-<script>
-function myFunction() {
-    setTimeout(function()
-	 { 
-    	  var conf = confirm("Veux tu voir la vidz ?"); 
-   	  if (conf) {
-          window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    }
-   }, 1000);
-}
-</script>
-	
 </head>
-  <body onload="setTimeout()">
+  <body onload="myFunction()">
     <header>
        <h1>
          "This is "
@@ -43,9 +31,20 @@ function myFunction() {
        
 The content of the document......
    	   
-<button onclick="alert('test de la mort')">test ici</button>
-
-<a href="www.google.ca">lien</a>
+<script>
+function myFunction() {
+    setTimeout(function(){ 
+    
+    
+    var conf = confirm("Veux tu voir la vidz ?"); 
+    
+    if (conf) {
+       window.location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    }
+ 
+    }, 1000);
+}
+</script>
 </body>
 
 </html>
